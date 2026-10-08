@@ -9,6 +9,9 @@
 [![SQLite FTS5](https://img.shields.io/badge/SQLite-FTS5%20BM25-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
+
+> **Research version.** This repository holds the exact code, the MLLB-Synth benchmark, the results and the reproduction scripts described in the paper *Remembering Change: Temporal Stratification and Stance-Change Detection for Retrieval over Personal Archives* (submitted to SN Computer Science). See `REPRODUCE.md` to regenerate every table and figure. The live application is maintained separately at https://github.com/ShakilUrRehman21/memory-lane-rag.
+
 ---
 
 ## 🌟 Overview
@@ -260,8 +263,8 @@ docker compose up -d --build
 
 ```bash
 # Clone the repository
-git clone https://github.com/ShakilUrRehman21/memory-lane-rag.git
-cd memory-lane-rag
+git clone https://github.com/ShakilUrRehman21/memory-lane-rag-paper.git
+cd memory-lane-rag-paper
 
 # Create and activate Python virtual environment
 python -m venv .venv
