@@ -1,0 +1,3 @@
+persona_id,source,topic,writer_id,consent_form_id,years_covered,notes
+EX1,example,remote work,EXAMPLE,n/a,2019-2022,illustration only
+EX2,example,gardening,EXAMPLE,n/a,2019-2022,illustration only (control)

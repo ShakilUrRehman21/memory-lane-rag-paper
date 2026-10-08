@@ -1,0 +1,567 @@
+[
+ {
+  "question_id": "fx0",
+  "question_type": "single-session-user",
+  "question": "What is my dog's name?",
+  "answer": "Biscuit",
+  "question_date": "2023/10/01 (Sun) 12:00",
+  "haystack_session_ids": [
+   "s0_0",
+   "s0_1",
+   "s0_2",
+   "s0_3",
+   "s0_4",
+   "answer_0",
+   "s0_6",
+   "s0_7"
+  ],
+  "haystack_dates": [
+   "2023/01/10 (Mon) 10:00",
+   "2023/02/11 (Mon) 10:01",
+   "2023/03/12 (Mon) 10:02",
+   "2023/04/13 (Mon) 10:03",
+   "2023/05/14 (Mon) 10:04",
+   "2023/06/15 (Mon) 10:05",
+   "2023/07/16 (Mon) 10:06",
+   "2023/08/17 (Mon) 10:07"
+  ],
+  "haystack_sessions": [
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "By the way, my dog's name is Biscuit.",
+     "has_answer": true
+    },
+    {
+     "role": "assistant",
+     "content": "Thanks for sharing that!"
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ]
+  ],
+  "answer_session_ids": [
+   "answer_0"
+  ]
+ },
+ {
+  "question_id": "fx1",
+  "question_type": "single-session-user",
+  "question": "What is the city I moved to?",
+  "answer": "Lisbon",
+  "question_date": "2023/10/01 (Sun) 12:00",
+  "haystack_session_ids": [
+   "s1_0",
+   "s1_1",
+   "s1_2",
+   "s1_3",
+   "s1_4",
+   "answer_1",
+   "s1_6",
+   "s1_7"
+  ],
+  "haystack_dates": [
+   "2023/01/10 (Mon) 10:00",
+   "2023/02/11 (Mon) 10:01",
+   "2023/03/12 (Mon) 10:02",
+   "2023/04/13 (Mon) 10:03",
+   "2023/05/14 (Mon) 10:04",
+   "2023/06/15 (Mon) 10:05",
+   "2023/07/16 (Mon) 10:06",
+   "2023/08/17 (Mon) 10:07"
+  ],
+  "haystack_sessions": [
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "By the way, the city I moved to is Lisbon.",
+     "has_answer": true
+    },
+    {
+     "role": "assistant",
+     "content": "Thanks for sharing that!"
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ]
+  ],
+  "answer_session_ids": [
+   "answer_1"
+  ]
+ },
+ {
+  "question_id": "fx2",
+  "question_type": "single-session-user",
+  "question": "What is my favourite tea?",
+  "answer": "oolong",
+  "question_date": "2023/10/01 (Sun) 12:00",
+  "haystack_session_ids": [
+   "s2_0",
+   "s2_1",
+   "s2_2",
+   "s2_3",
+   "s2_4",
+   "answer_2",
+   "s2_6",
+   "s2_7"
+  ],
+  "haystack_dates": [
+   "2023/01/10 (Mon) 10:00",
+   "2023/02/11 (Mon) 10:01",
+   "2023/03/12 (Mon) 10:02",
+   "2023/04/13 (Mon) 10:03",
+   "2023/05/14 (Mon) 10:04",
+   "2023/06/15 (Mon) 10:05",
+   "2023/07/16 (Mon) 10:06",
+   "2023/08/17 (Mon) 10:07"
+  ],
+  "haystack_sessions": [
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "By the way, my favourite tea is oolong.",
+     "has_answer": true
+    },
+    {
+     "role": "assistant",
+     "content": "Thanks for sharing that!"
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ]
+  ],
+  "answer_session_ids": [
+   "answer_2"
+  ]
+ },
+ {
+  "question_id": "fx3",
+  "question_type": "single-session-user",
+  "question": "What is my new job title?",
+  "answer": "data engineer",
+  "question_date": "2023/10/01 (Sun) 12:00",
+  "haystack_session_ids": [
+   "s3_0",
+   "s3_1",
+   "s3_2",
+   "s3_3",
+   "s3_4",
+   "answer_3",
+   "s3_6",
+   "s3_7"
+  ],
+  "haystack_dates": [
+   "2023/01/10 (Mon) 10:00",
+   "2023/02/11 (Mon) 10:01",
+   "2023/03/12 (Mon) 10:02",
+   "2023/04/13 (Mon) 10:03",
+   "2023/05/14 (Mon) 10:04",
+   "2023/06/15 (Mon) 10:05",
+   "2023/07/16 (Mon) 10:06",
+   "2023/08/17 (Mon) 10:07"
+  ],
+  "haystack_sessions": [
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "By the way, my new job title is data engineer.",
+     "has_answer": true
+    },
+    {
+     "role": "assistant",
+     "content": "Thanks for sharing that!"
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ]
+  ],
+  "answer_session_ids": [
+   "answer_3"
+  ]
+ },
+ {
+  "question_id": "fx0_abs",
+  "question_type": "single-session-user",
+  "question": "What is my dog's name?",
+  "answer": "Biscuit",
+  "question_date": "2023/10/01 (Sun) 12:00",
+  "haystack_session_ids": [
+   "s0_0",
+   "s0_1",
+   "s0_2",
+   "s0_3",
+   "s0_4",
+   "answer_0",
+   "s0_6",
+   "s0_7"
+  ],
+  "haystack_dates": [
+   "2023/01/10 (Mon) 10:00",
+   "2023/02/11 (Mon) 10:01",
+   "2023/03/12 (Mon) 10:02",
+   "2023/04/13 (Mon) 10:03",
+   "2023/05/14 (Mon) 10:04",
+   "2023/06/15 (Mon) 10:05",
+   "2023/07/16 (Mon) 10:06",
+   "2023/08/17 (Mon) 10:07"
+  ],
+  "haystack_sessions": [
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with rice?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "By the way, my dog's name is Biscuit.",
+     "has_answer": true
+    },
+    {
+     "role": "assistant",
+     "content": "Thanks for sharing that!"
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with pasta?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ],
+   [
+    {
+     "role": "user",
+     "content": "Can you suggest a recipe with beans?"
+    },
+    {
+     "role": "assistant",
+     "content": "Sure, here is a simple idea with garlic and olive oil."
+    }
+   ]
+  ],
+  "answer_session_ids": [
+   "answer_0"
+  ]
+ }
+]

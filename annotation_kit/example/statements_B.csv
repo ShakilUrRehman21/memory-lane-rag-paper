@@ -1,0 +1,12 @@
+doc_id,sent_idx,sentence,annotator_id,memory_type,polarity,topic
+EX1_d1,0,Remote work sounds isolating to me.,B,belief,-1,remote work
+EX1_d1,1,I need an office to focus.,B,belief,-1,remote work
+EX1_d2,0,We were sent home.,B,event,0,remote work
+EX1_d2,1,I miss the whiteboards and I am not enjoying this.,B,preference,-2,remote work
+EX1_d3,0,"Funny, I now get more done at home than I ever did in the office.",B,reflection,2,remote work
+EX1_d4,0,I asked to stay fully remote.,B,decision,2,remote work
+EX1_d4,1,Commuting feels like wasted hours.,B,belief,-1,remote work
+EX2_d1,0,Planted tomatoes again.,B,event,0,gardening
+EX2_d1,1,Gardening is the best part of my week.,B,preference,2,gardening
+EX2_d2,0,"The courgettes were huge this year, I gave half to the neighbours.",B,observation,0,gardening
+EX2_d3,0,Started seeds indoors in March; gardening keeps me sane.,B,event,1,gardening

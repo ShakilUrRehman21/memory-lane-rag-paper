@@ -1,0 +1,47 @@
+{
+ "rule": "Rule (fixed before running): among the candidate modes, choose the one with the highest mean\nTemporal Coverage Recall on MLLB-Synth DEV (all query styles), subject to LoCoMo-DEV Recall@5\n(conversations 1-5) being no more than 0.01 below the \"off\" mode. Ties -> fewer stratified slots.\nHeld-out evaluation afterwards: LoCoMo conversations 6-10 and MLLB-Synth TEST.",
+ "candidates": [
+  {
+   "mode": "off",
+   "soft_fraction": null,
+   "locomo_dev_R@5": 0.4028,
+   "mllb_dev_TCR": 0.8646
+  },
+  {
+   "mode": "router",
+   "soft_fraction": null,
+   "locomo_dev_R@5": 0.4028,
+   "mllb_dev_TCR": 0.9167
+  },
+  {
+   "mode": "soft",
+   "soft_fraction": 0.75,
+   "locomo_dev_R@5": 0.3844,
+   "mllb_dev_TCR": 0.9583
+  },
+  {
+   "mode": "soft",
+   "soft_fraction": 0.5,
+   "locomo_dev_R@5": 0.334,
+   "mllb_dev_TCR": 0.9774
+  },
+  {
+   "mode": "soft",
+   "soft_fraction": 0.25,
+   "locomo_dev_R@5": 0.3077,
+   "mllb_dev_TCR": 0.9688
+  },
+  {
+   "mode": "always",
+   "soft_fraction": null,
+   "locomo_dev_R@5": 0.309,
+   "mllb_dev_TCR": 0.9766
+  }
+ ],
+ "selected": {
+  "mode": "router",
+  "soft_fraction": null,
+  "locomo_dev_R@5": 0.4028,
+  "mllb_dev_TCR": 0.9167
+ }
+}

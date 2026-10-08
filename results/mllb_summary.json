@@ -1,0 +1,7031 @@
+{
+ "summary": {
+  "dev|v1.0|baseline": {
+   "all": {
+    "TCR": [
+     0.829,
+     0.808,
+     0.849,
+     192
+    ],
+    "CP_F1": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "CP_precision": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "reversal_found": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.0,
+    "latency_p50_ms": 18.3
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.816,
+      0.786,
+      0.845,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 19.2
+    },
+    "plain": {
+     "TCR": [
+      0.842,
+      0.812,
+      0.868,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.8
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.911,
+      0.892,
+      0.931,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.9
+    },
+    "skewed": {
+     "TCR": [
+      0.747,
+      0.719,
+      0.774,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 19.6
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.858,
+      0.816,
+      0.896,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 19.0
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.851,
+      0.809,
+      0.892,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.2
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.802,
+      0.764,
+      0.84,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.5
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.806,
+      0.76,
+      0.847,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.8
+    }
+   }
+  },
+  "dev|v1.0|memory_lane": {
+   "all": {
+    "TCR": [
+     0.924,
+     0.907,
+     0.941,
+     192
+    ],
+    "CP_F1": [
+     0.122,
+     0.098,
+     0.145,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.153,
+     0.13,
+     0.178,
+     192
+    ],
+    "CP_precision": [
+     0.074,
+     0.06,
+     0.09,
+     192
+    ],
+    "reversal_found": [
+     0.24,
+     0.182,
+     0.302,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 2.77,
+    "latency_p50_ms": 28.7
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      96
+     ],
+     "CP_F1": [
+      0.13,
+      0.101,
+      0.158,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.14,
+      0.112,
+      0.17,
+      96
+     ],
+     "CP_precision": [
+      0.076,
+      0.059,
+      0.093,
+      96
+     ],
+     "reversal_found": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 3.02,
+     "latency_p50_ms": 30.7
+    },
+    "plain": {
+     "TCR": [
+      0.849,
+      0.823,
+      0.875,
+      96
+     ],
+     "CP_F1": [
+      0.114,
+      0.079,
+      0.15,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.167,
+      0.129,
+      0.206,
+      96
+     ],
+     "CP_precision": [
+      0.072,
+      0.048,
+      0.101,
+      96
+     ],
+     "reversal_found": [
+      0.229,
+      0.146,
+      0.312,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 2.52,
+     "latency_p50_ms": 24.0
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.96,
+      0.944,
+      0.974,
+      96
+     ],
+     "CP_F1": [
+      0.117,
+      0.089,
+      0.146,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.143,
+      0.112,
+      0.173,
+      96
+     ],
+     "CP_precision": [
+      0.069,
+      0.052,
+      0.086,
+      96
+     ],
+     "reversal_found": [
+      0.229,
+      0.146,
+      0.323,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 2.86,
+     "latency_p50_ms": 22.3
+    },
+    "skewed": {
+     "TCR": [
+      0.889,
+      0.859,
+      0.917,
+      96
+     ],
+     "CP_F1": [
+      0.126,
+      0.092,
+      0.161,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.164,
+      0.128,
+      0.202,
+      96
+     ],
+     "CP_precision": [
+      0.079,
+      0.055,
+      0.109,
+      96
+     ],
+     "reversal_found": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 2.68,
+     "latency_p50_ms": 30.7
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.931,
+      0.903,
+      0.955,
+      48
+     ],
+     "CP_F1": [
+      0.257,
+      0.213,
+      0.303,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.312,
+      0.288,
+      0.349,
+      48
+     ],
+     "CP_precision": [
+      0.16,
+      0.126,
+      0.204,
+      48
+     ],
+     "reversal_found": [
+      0.958,
+      0.896,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 5.77,
+     "latency_p50_ms": 52.7
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.938,
+      0.903,
+      0.969,
+      48
+     ],
+     "CP_F1": [
+      0.229,
+      0.188,
+      0.269,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.301,
+      0.271,
+      0.328,
+      48
+     ],
+     "CP_precision": [
+      0.137,
+      0.112,
+      0.161,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 5.31,
+     "latency_p50_ms": 38.5
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.913,
+      0.882,
+      0.944,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.3
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.917,
+      0.875,
+      0.955,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.1
+    }
+   }
+  },
+  "dev|v1.1:default|baseline": {
+   "all": {
+    "TCR": [
+     0.863,
+     0.842,
+     0.884,
+     192
+    ],
+    "CP_F1": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "CP_precision": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "reversal_found": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.0,
+    "latency_p50_ms": 13.3
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.851,
+      0.823,
+      0.878,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.7
+    },
+    "plain": {
+     "TCR": [
+      0.875,
+      0.844,
+      0.905,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.2
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.955,
+      0.939,
+      0.97,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 9.3
+    },
+    "skewed": {
+     "TCR": [
+      0.771,
+      0.741,
+      0.799,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 15.0
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.875,
+      0.833,
+      0.913,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 11.7
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.844,
+      0.795,
+      0.889,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 12.0
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.899,
+      0.861,
+      0.934,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 14.0
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.833,
+      0.792,
+      0.875,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 12.2
+    }
+   }
+  },
+  "dev|v1.1:default|memory_lane": {
+   "all": {
+    "TCR": [
+     0.978,
+     0.97,
+     0.986,
+     192
+    ],
+    "CP_F1": [
+     0.344,
+     0.276,
+     0.411,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.453,
+     0.38,
+     0.526,
+     192
+    ],
+    "CP_precision": [
+     0.344,
+     0.276,
+     0.411,
+     192
+    ],
+    "reversal_found": [
+     0.49,
+     0.422,
+     0.562,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.49,
+    "latency_p50_ms": 16.9
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.981,
+      0.97,
+      0.991,
+      96
+     ],
+     "CP_F1": [
+      0.438,
+      0.333,
+      0.542,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.49,
+      0.385,
+      0.594,
+      96
+     ],
+     "CP_precision": [
+      0.438,
+      0.344,
+      0.532,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.406,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.5,
+     "latency_p50_ms": 18.2
+    },
+    "plain": {
+     "TCR": [
+      0.976,
+      0.964,
+      0.986,
+      96
+     ],
+     "CP_F1": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.417,
+      0.323,
+      0.521,
+      96
+     ],
+     "CP_precision": [
+      0.25,
+      0.167,
+      0.344,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.375,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.48,
+     "latency_p50_ms": 16.5
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.967,
+      0.953,
+      0.979,
+      96
+     ],
+     "CP_F1": [
+      0.375,
+      0.281,
+      0.479,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.479,
+      0.385,
+      0.573,
+      96
+     ],
+     "CP_precision": [
+      0.375,
+      0.271,
+      0.469,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.396,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.49,
+     "latency_p50_ms": 13.2
+    },
+    "skewed": {
+     "TCR": [
+      0.99,
+      0.981,
+      0.997,
+      96
+     ],
+     "CP_F1": [
+      0.312,
+      0.219,
+      0.406,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.427,
+      0.333,
+      0.531,
+      96
+     ],
+     "CP_precision": [
+      0.312,
+      0.219,
+      0.406,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.385,
+      0.594,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.49,
+     "latency_p50_ms": 18.9
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.979,
+      0.962,
+      0.993,
+      48
+     ],
+     "CP_F1": [
+      0.667,
+      0.521,
+      0.792,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.875,
+      0.771,
+      0.958,
+      48
+     ],
+     "CP_precision": [
+      0.667,
+      0.542,
+      0.792,
+      48
+     ],
+     "reversal_found": [
+      0.958,
+      0.896,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.96,
+     "latency_p50_ms": 16.7
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.983,
+      0.969,
+      0.997,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.2
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.976,
+      0.958,
+      0.99,
+      48
+     ],
+     "CP_F1": [
+      0.708,
+      0.583,
+      0.833,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.938,
+      0.874,
+      1.0,
+      48
+     ],
+     "CP_precision": [
+      0.708,
+      0.583,
+      0.833,
+      48
+     ],
+     "reversal_found": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 1.0,
+     "latency_p50_ms": 18.6
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.976,
+      0.958,
+      0.99,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.8
+    }
+   }
+  },
+  "dev|v1.1:default|temporal": {
+   "all": {
+    "TCR": [
+     0.863,
+     0.842,
+     0.884,
+     192
+    ],
+    "CP_F1": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "CP_precision": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "reversal_found": [
+     0.0,
+     0.0,
+     0.0,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.0,
+    "latency_p50_ms": 13.3
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.851,
+      0.823,
+      0.878,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.4
+    },
+    "plain": {
+     "TCR": [
+      0.875,
+      0.844,
+      0.905,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.3
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.955,
+      0.939,
+      0.97,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 9.0
+    },
+    "skewed": {
+     "TCR": [
+      0.771,
+      0.741,
+      0.799,
+      96
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 14.6
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.875,
+      0.833,
+      0.913,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 11.6
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.844,
+      0.799,
+      0.889,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.2
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.899,
+      0.861,
+      0.934,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.7
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.833,
+      0.795,
+      0.872,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 12.3
+    }
+   }
+  },
+  "dev|v1.1:hash_embed|memory_lane": {
+   "all": {
+    "TCR": [
+     0.979,
+     0.971,
+     0.987,
+     192
+    ],
+    "CP_F1": [
+     0.251,
+     0.197,
+     0.307,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.368,
+     0.306,
+     0.432,
+     192
+    ],
+    "CP_precision": [
+     0.23,
+     0.177,
+     0.286,
+     192
+    ],
+    "reversal_found": [
+     0.484,
+     0.411,
+     0.552,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.67,
+    "latency_p50_ms": 19.5
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.981,
+      0.969,
+      0.991,
+      96
+     ],
+     "CP_F1": [
+      0.359,
+      0.274,
+      0.448,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.429,
+      0.342,
+      0.519,
+      96
+     ],
+     "CP_precision": [
+      0.33,
+      0.247,
+      0.413,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.406,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.74,
+     "latency_p50_ms": 25.2
+    },
+    "plain": {
+     "TCR": [
+      0.977,
+      0.965,
+      0.988,
+      96
+     ],
+     "CP_F1": [
+      0.142,
+      0.08,
+      0.212,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.307,
+      0.22,
+      0.396,
+      96
+     ],
+     "CP_precision": [
+      0.13,
+      0.073,
+      0.193,
+      96
+     ],
+     "reversal_found": [
+      0.469,
+      0.365,
+      0.573,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.6,
+     "latency_p50_ms": 16.4
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.974,
+      0.962,
+      0.984,
+      96
+     ],
+     "CP_F1": [
+      0.299,
+      0.215,
+      0.389,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.424,
+      0.333,
+      0.517,
+      96
+     ],
+     "CP_precision": [
+      0.281,
+      0.198,
+      0.365,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.385,
+      0.573,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.61,
+     "latency_p50_ms": 18.1
+    },
+    "skewed": {
+     "TCR": [
+      0.984,
+      0.974,
+      0.993,
+      96
+     ],
+     "CP_F1": [
+      0.203,
+      0.135,
+      0.274,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.312,
+      0.229,
+      0.401,
+      96
+     ],
+     "CP_precision": [
+      0.179,
+      0.116,
+      0.247,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.385,
+      0.594,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.73,
+     "latency_p50_ms": 25.0
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.979,
+      0.962,
+      0.993,
+      48
+     ],
+     "CP_F1": [
+      0.528,
+      0.399,
+      0.649,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.778,
+      0.67,
+      0.872,
+      48
+     ],
+     "CP_precision": [
+      0.493,
+      0.368,
+      0.618,
+      48
+     ],
+     "reversal_found": [
+      0.979,
+      0.938,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 1.23,
+     "latency_p50_ms": 19.4
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.997,
+      0.99,
+      1.0,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 19.5
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.969,
+      0.951,
+      0.986,
+      48
+     ],
+     "CP_F1": [
+      0.476,
+      0.358,
+      0.594,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.694,
+      0.59,
+      0.792,
+      48
+     ],
+     "CP_precision": [
+      0.427,
+      0.312,
+      0.549,
+      48
+     ],
+     "reversal_found": [
+      0.958,
+      0.896,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 1.46,
+     "latency_p50_ms": 19.8
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.972,
+      0.955,
+      0.99,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 19.0
+    }
+   }
+  },
+  "dev|v1.1:no_query_focus|memory_lane": {
+   "all": {
+    "TCR": [
+     0.978,
+     0.97,
+     0.986,
+     192
+    ],
+    "CP_F1": [
+     0.167,
+     0.115,
+     0.219,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.219,
+     0.161,
+     0.281,
+     192
+    ],
+    "CP_precision": [
+     0.167,
+     0.115,
+     0.224,
+     192
+    ],
+    "reversal_found": [
+     0.49,
+     0.417,
+     0.562,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.24,
+    "latency_p50_ms": 16.4
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.981,
+      0.969,
+      0.991,
+      96
+     ],
+     "CP_F1": [
+      0.208,
+      0.135,
+      0.292,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.24,
+      0.156,
+      0.323,
+      96
+     ],
+     "CP_precision": [
+      0.208,
+      0.135,
+      0.292,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.406,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.25,
+     "latency_p50_ms": 17.9
+    },
+    "plain": {
+     "TCR": [
+      0.976,
+      0.964,
+      0.988,
+      96
+     ],
+     "CP_F1": [
+      0.125,
+      0.062,
+      0.188,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.198,
+      0.125,
+      0.281,
+      96
+     ],
+     "CP_precision": [
+      0.125,
+      0.062,
+      0.198,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.375,
+      0.573,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.23,
+     "latency_p50_ms": 16.2
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.967,
+      0.953,
+      0.979,
+      96
+     ],
+     "CP_F1": [
+      0.188,
+      0.115,
+      0.261,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.229,
+      0.146,
+      0.312,
+      96
+     ],
+     "CP_precision": [
+      0.188,
+      0.115,
+      0.271,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.385,
+      0.594,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.24,
+     "latency_p50_ms": 13.2
+    },
+    "skewed": {
+     "TCR": [
+      0.99,
+      0.981,
+      0.997,
+      96
+     ],
+     "CP_F1": [
+      0.146,
+      0.083,
+      0.219,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.208,
+      0.125,
+      0.292,
+      96
+     ],
+     "CP_precision": [
+      0.146,
+      0.073,
+      0.219,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.396,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.24,
+     "latency_p50_ms": 18.0
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.979,
+      0.962,
+      0.993,
+      48
+     ],
+     "CP_F1": [
+      0.667,
+      0.542,
+      0.792,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.875,
+      0.771,
+      0.958,
+      48
+     ],
+     "CP_precision": [
+      0.667,
+      0.542,
+      0.792,
+      48
+     ],
+     "reversal_found": [
+      0.958,
+      0.896,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.96,
+     "latency_p50_ms": 17.8
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.983,
+      0.965,
+      0.997,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 15.9
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.976,
+      0.958,
+      0.99,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 15.0
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.976,
+      0.958,
+      0.99,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 15.2
+    }
+   }
+  },
+  "dev|v1.1:router_strat|memory_lane": {
+   "all": {
+    "TCR": [
+     0.918,
+     0.9,
+     0.934,
+     192
+    ],
+    "CP_F1": [
+     0.349,
+     0.281,
+     0.417,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.438,
+     0.37,
+     0.51,
+     192
+    ],
+    "CP_precision": [
+     0.349,
+     0.281,
+     0.417,
+     192
+    ],
+    "reversal_found": [
+     0.495,
+     0.427,
+     0.568,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.49,
+    "latency_p50_ms": 17.1
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.981,
+      0.97,
+      0.991,
+      96
+     ],
+     "CP_F1": [
+      0.438,
+      0.344,
+      0.542,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.49,
+      0.385,
+      0.594,
+      96
+     ],
+     "CP_precision": [
+      0.438,
+      0.333,
+      0.542,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.5,
+     "latency_p50_ms": 18.4
+    },
+    "plain": {
+     "TCR": [
+      0.854,
+      0.828,
+      0.88,
+      96
+     ],
+     "CP_F1": [
+      0.26,
+      0.177,
+      0.354,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.385,
+      0.292,
+      0.49,
+      96
+     ],
+     "CP_precision": [
+      0.26,
+      0.177,
+      0.354,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.396,
+      0.594,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.49,
+     "latency_p50_ms": 16.5
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.948,
+      0.932,
+      0.964,
+      96
+     ],
+     "CP_F1": [
+      0.396,
+      0.302,
+      0.5,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.49,
+      0.396,
+      0.594,
+      96
+     ],
+     "CP_precision": [
+      0.396,
+      0.302,
+      0.5,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.396,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.49,
+     "latency_p50_ms": 14.4
+    },
+    "skewed": {
+     "TCR": [
+      0.887,
+      0.858,
+      0.915,
+      96
+     ],
+     "CP_F1": [
+      0.302,
+      0.208,
+      0.396,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.385,
+      0.292,
+      0.479,
+      96
+     ],
+     "CP_precision": [
+      0.302,
+      0.219,
+      0.396,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.406,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.5,
+     "latency_p50_ms": 19.2
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.938,
+      0.906,
+      0.965,
+      48
+     ],
+     "CP_F1": [
+      0.646,
+      0.5,
+      0.771,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.854,
+      0.75,
+      0.938,
+      48
+     ],
+     "CP_precision": [
+      0.646,
+      0.5,
+      0.771,
+      48
+     ],
+     "reversal_found": [
+      0.979,
+      0.938,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.98,
+     "latency_p50_ms": 17.4
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.903,
+      0.868,
+      0.938,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.3
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.924,
+      0.889,
+      0.955,
+      48
+     ],
+     "CP_F1": [
+      0.75,
+      0.625,
+      0.875,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.896,
+      0.812,
+      0.979,
+      48
+     ],
+     "CP_precision": [
+      0.75,
+      0.625,
+      0.875,
+      48
+     ],
+     "reversal_found": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 1.0,
+     "latency_p50_ms": 17.7
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.906,
+      0.868,
+      0.941,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.7
+    }
+   }
+  },
+  "dev|v1.1:year_epochs|memory_lane": {
+   "all": {
+    "TCR": [
+     1.0,
+     1.0,
+     1.0,
+     192
+    ],
+    "CP_F1": [
+     0.359,
+     0.292,
+     0.432,
+     192
+    ],
+    "CP_F1_tol1": [
+     0.453,
+     0.385,
+     0.526,
+     192
+    ],
+    "CP_precision": [
+     0.359,
+     0.292,
+     0.427,
+     192
+    ],
+    "reversal_found": [
+     0.49,
+     0.417,
+     0.557,
+     192
+    ],
+    "false_alarm_stable": null,
+    "changes_per_query": 0.49,
+    "latency_p50_ms": 17.3
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      96
+     ],
+     "CP_F1": [
+      0.469,
+      0.375,
+      0.562,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.49,
+      0.385,
+      0.594,
+      96
+     ],
+     "CP_precision": [
+      0.469,
+      0.375,
+      0.562,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.406,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.5,
+     "latency_p50_ms": 18.7
+    },
+    "plain": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      96
+     ],
+     "CP_F1": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.417,
+      0.323,
+      0.521,
+      96
+     ],
+     "CP_precision": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.385,
+      0.573,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.48,
+     "latency_p50_ms": 16.9
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      96
+     ],
+     "CP_F1": [
+      0.396,
+      0.302,
+      0.49,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.479,
+      0.385,
+      0.583,
+      96
+     ],
+     "CP_precision": [
+      0.396,
+      0.302,
+      0.5,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.385,
+      0.594,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.49,
+     "latency_p50_ms": 14.0
+    },
+    "skewed": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      96
+     ],
+     "CP_F1": [
+      0.323,
+      0.229,
+      0.417,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.427,
+      0.333,
+      0.531,
+      96
+     ],
+     "CP_precision": [
+      0.323,
+      0.229,
+      0.417,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.385,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.49,
+     "latency_p50_ms": 19.3
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "CP_F1": [
+      0.646,
+      0.5,
+      0.771,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.875,
+      0.771,
+      0.958,
+      48
+     ],
+     "CP_precision": [
+      0.646,
+      0.5,
+      0.771,
+      48
+     ],
+     "reversal_found": [
+      0.958,
+      0.896,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.96,
+     "latency_p50_ms": 16.1
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.7
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "CP_F1": [
+      0.792,
+      0.667,
+      0.896,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.938,
+      0.854,
+      1.0,
+      48
+     ],
+     "CP_precision": [
+      0.792,
+      0.667,
+      0.896,
+      48
+     ],
+     "reversal_found": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 1.0,
+     "latency_p50_ms": 17.3
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      48
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      48
+     ],
+     "false_alarm_stable": null,
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.2
+    }
+   }
+  },
+  "test|v1.0|baseline": {
+   "all": {
+    "TCR": [
+     0.842,
+     0.828,
+     0.855,
+     512
+    ],
+    "CP_F1": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "CP_precision": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "reversal_found": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "false_alarm_stable": [
+     0.0,
+     0.0,
+     0.0,
+     128
+    ],
+    "changes_per_query": 0.0,
+    "latency_p50_ms": 18.2
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.798,
+      0.771,
+      0.826,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 20.3
+    },
+    "history": {
+     "TCR": [
+      0.844,
+      0.819,
+      0.868,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 19.3
+    },
+    "plain": {
+     "TCR": [
+      0.836,
+      0.806,
+      0.865,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.6
+    },
+    "when_changed": {
+     "TCR": [
+      0.891,
+      0.865,
+      0.915,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.2
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.925,
+      0.913,
+      0.938,
+      256
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 14.9
+    },
+    "skewed": {
+     "TCR": [
+      0.759,
+      0.74,
+      0.779,
+      256
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 20.5
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.827,
+      0.797,
+      0.855,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.5
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.846,
+      0.816,
+      0.874,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.3
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.835,
+      0.807,
+      0.862,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.4
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.861,
+      0.837,
+      0.883,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.9
+    }
+   }
+  },
+  "test|v1.0|memory_lane": {
+   "all": {
+    "TCR": [
+     0.931,
+     0.92,
+     0.941,
+     512
+    ],
+    "CP_F1": [
+     0.118,
+     0.102,
+     0.133,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.153,
+     0.137,
+     0.17,
+     384
+    ],
+    "CP_precision": [
+     0.07,
+     0.061,
+     0.079,
+     384
+    ],
+    "reversal_found": [
+     0.198,
+     0.159,
+     0.237,
+     384
+    ],
+    "false_alarm_stable": [
+     0.5,
+     0.414,
+     0.586,
+     128
+    ],
+    "changes_per_query": 2.74,
+    "latency_p50_ms": 25.8
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.146,
+      0.116,
+      0.177,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.149,
+      0.119,
+      0.179,
+      96
+     ],
+     "CP_precision": [
+      0.086,
+      0.068,
+      0.104,
+      96
+     ],
+     "reversal_found": [
+      0.25,
+      0.167,
+      0.344,
+      96
+     ],
+     "false_alarm_stable": [
+      0.5,
+      0.312,
+      0.688,
+      32
+     ],
+     "changes_per_query": 2.95,
+     "latency_p50_ms": 27.2
+    },
+    "history": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.14,
+      0.109,
+      0.172,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.163,
+      0.127,
+      0.199,
+      96
+     ],
+     "CP_precision": [
+      0.083,
+      0.064,
+      0.103,
+      96
+     ],
+     "reversal_found": [
+      0.25,
+      0.167,
+      0.344,
+      96
+     ],
+     "false_alarm_stable": [
+      0.5,
+      0.312,
+      0.688,
+      32
+     ],
+     "changes_per_query": 2.71,
+     "latency_p50_ms": 27.6
+    },
+    "plain": {
+     "TCR": [
+      0.853,
+      0.827,
+      0.879,
+      128
+     ],
+     "CP_F1": [
+      0.087,
+      0.059,
+      0.119,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.161,
+      0.126,
+      0.197,
+      96
+     ],
+     "CP_precision": [
+      0.053,
+      0.035,
+      0.073,
+      96
+     ],
+     "reversal_found": [
+      0.052,
+      0.01,
+      0.094,
+      96
+     ],
+     "false_alarm_stable": [
+      0.5,
+      0.312,
+      0.656,
+      32
+     ],
+     "changes_per_query": 2.6,
+     "latency_p50_ms": 24.4
+    },
+    "when_changed": {
+     "TCR": [
+      0.871,
+      0.845,
+      0.896,
+      128
+     ],
+     "CP_F1": [
+      0.099,
+      0.071,
+      0.128,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.141,
+      0.11,
+      0.173,
+      96
+     ],
+     "CP_precision": [
+      0.058,
+      0.041,
+      0.075,
+      96
+     ],
+     "reversal_found": [
+      0.24,
+      0.156,
+      0.323,
+      96
+     ],
+     "false_alarm_stable": [
+      0.5,
+      0.312,
+      0.656,
+      32
+     ],
+     "changes_per_query": 2.71,
+     "latency_p50_ms": 23.7
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.975,
+      0.967,
+      0.982,
+      256
+     ],
+     "CP_F1": [
+      0.128,
+      0.107,
+      0.149,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.148,
+      0.126,
+      0.17,
+      192
+     ],
+     "CP_precision": [
+      0.075,
+      0.063,
+      0.088,
+      192
+     ],
+     "reversal_found": [
+      0.208,
+      0.151,
+      0.271,
+      192
+     ],
+     "false_alarm_stable": [
+      0.5,
+      0.375,
+      0.625,
+      64
+     ],
+     "changes_per_query": 2.95,
+     "latency_p50_ms": 23.7
+    },
+    "skewed": {
+     "TCR": [
+      0.887,
+      0.868,
+      0.906,
+      256
+     ],
+     "CP_F1": [
+      0.108,
+      0.086,
+      0.13,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.159,
+      0.134,
+      0.185,
+      192
+     ],
+     "CP_precision": [
+      0.065,
+      0.051,
+      0.079,
+      192
+     ],
+     "reversal_found": [
+      0.188,
+      0.135,
+      0.245,
+      192
+     ],
+     "false_alarm_stable": [
+      0.5,
+      0.375,
+      0.625,
+      64
+     ],
+     "changes_per_query": 2.54,
+     "latency_p50_ms": 26.7
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.924,
+      0.902,
+      0.945,
+      128
+     ],
+     "CP_F1": [
+      0.241,
+      0.215,
+      0.267,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.309,
+      0.296,
+      0.322,
+      96
+     ],
+     "CP_precision": [
+      0.143,
+      0.127,
+      0.159,
+      96
+     ],
+     "reversal_found": [
+      0.792,
+      0.708,
+      0.875,
+      96
+     ],
+     "false_alarm_stable": [
+      1.0,
+      1.0,
+      1.0,
+      32
+     ],
+     "changes_per_query": 5.61,
+     "latency_p50_ms": 46.2
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.931,
+      0.906,
+      0.953,
+      128
+     ],
+     "CP_F1": [
+      0.23,
+      0.201,
+      0.259,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.305,
+      0.283,
+      0.327,
+      96
+     ],
+     "CP_precision": [
+      0.138,
+      0.119,
+      0.156,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      1.0,
+      1.0,
+      1.0,
+      32
+     ],
+     "changes_per_query": 5.36,
+     "latency_p50_ms": 34.1
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.931,
+      0.906,
+      0.953,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.0
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.938,
+      0.917,
+      0.956,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.1
+    }
+   }
+  },
+  "test|v1.1:default|baseline": {
+   "all": {
+    "TCR": [
+     0.822,
+     0.808,
+     0.836,
+     512
+    ],
+    "CP_F1": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "CP_precision": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "reversal_found": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "false_alarm_stable": [
+     0.0,
+     0.0,
+     0.0,
+     128
+    ],
+    "changes_per_query": 0.0,
+    "latency_p50_ms": 13.4
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.815,
+      0.786,
+      0.841,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 14.1
+    },
+    "history": {
+     "TCR": [
+      0.828,
+      0.801,
+      0.855,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.4
+    },
+    "plain": {
+     "TCR": [
+      0.815,
+      0.785,
+      0.844,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.4
+    },
+    "when_changed": {
+     "TCR": [
+      0.831,
+      0.802,
+      0.858,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.3
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.932,
+      0.921,
+      0.943,
+      256
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 9.3
+    },
+    "skewed": {
+     "TCR": [
+      0.712,
+      0.694,
+      0.73,
+      256
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 14.7
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.857,
+      0.829,
+      0.884,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.4
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.814,
+      0.788,
+      0.84,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.5
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.805,
+      0.772,
+      0.836,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.5
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.814,
+      0.786,
+      0.84,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.1
+    }
+   }
+  },
+  "test|v1.1:default|memory_lane": {
+   "all": {
+    "TCR": [
+     0.97,
+     0.964,
+     0.975,
+     512
+    ],
+    "CP_F1": [
+     0.368,
+     0.321,
+     0.416,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.454,
+     0.407,
+     0.505,
+     384
+    ],
+    "CP_precision": [
+     0.366,
+     0.318,
+     0.415,
+     384
+    ],
+    "reversal_found": [
+     0.487,
+     0.438,
+     0.536,
+     384
+    ],
+    "false_alarm_stable": [
+     0.023,
+     0.0,
+     0.055,
+     128
+    ],
+    "changes_per_query": 0.39,
+    "latency_p50_ms": 17.2
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.97,
+      0.958,
+      0.98,
+      128
+     ],
+     "CP_F1": [
+      0.477,
+      0.378,
+      0.576,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.488,
+      0.394,
+      0.587,
+      96
+     ],
+     "CP_precision": [
+      0.472,
+      0.373,
+      0.569,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.406,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.41,
+     "latency_p50_ms": 19.3
+    },
+    "history": {
+     "TCR": [
+      0.97,
+      0.958,
+      0.98,
+      128
+     ],
+     "CP_F1": [
+      0.481,
+      0.384,
+      0.578,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.491,
+      0.392,
+      0.59,
+      96
+     ],
+     "CP_precision": [
+      0.477,
+      0.38,
+      0.576,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.41,
+     "latency_p50_ms": 18.3
+    },
+    "plain": {
+     "TCR": [
+      0.967,
+      0.956,
+      0.978,
+      128
+     ],
+     "CP_F1": [
+      0.198,
+      0.125,
+      0.281,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.427,
+      0.333,
+      0.521,
+      96
+     ],
+     "CP_precision": [
+      0.198,
+      0.125,
+      0.281,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.385,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.36,
+     "latency_p50_ms": 17.2
+    },
+    "when_changed": {
+     "TCR": [
+      0.971,
+      0.96,
+      0.982,
+      128
+     ],
+     "CP_F1": [
+      0.318,
+      0.229,
+      0.411,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.411,
+      0.318,
+      0.51,
+      96
+     ],
+     "CP_precision": [
+      0.316,
+      0.229,
+      0.41,
+      96
+     ],
+     "reversal_found": [
+      0.469,
+      0.365,
+      0.573,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.38,
+     "latency_p50_ms": 16.4
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.961,
+      0.952,
+      0.969,
+      256
+     ],
+     "CP_F1": [
+      0.356,
+      0.288,
+      0.425,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.46,
+      0.389,
+      0.531,
+      192
+     ],
+     "CP_precision": [
+      0.354,
+      0.292,
+      0.419,
+      192
+     ],
+     "reversal_found": [
+      0.49,
+      0.417,
+      0.557,
+      192
+     ],
+     "false_alarm_stable": [
+      0.047,
+      0.0,
+      0.109,
+      64
+     ],
+     "changes_per_query": 0.39,
+     "latency_p50_ms": 13.7
+    },
+    "skewed": {
+     "TCR": [
+      0.979,
+      0.971,
+      0.985,
+      256
+     ],
+     "CP_F1": [
+      0.381,
+      0.315,
+      0.45,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.449,
+      0.381,
+      0.519,
+      192
+     ],
+     "CP_precision": [
+      0.378,
+      0.312,
+      0.448,
+      192
+     ],
+     "reversal_found": [
+      0.484,
+      0.417,
+      0.552,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.39,
+     "latency_p50_ms": 19.3
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.978,
+      0.967,
+      0.987,
+      128
+     ],
+     "CP_F1": [
+      0.812,
+      0.729,
+      0.885,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.979,
+      0.948,
+      1.0,
+      96
+     ],
+     "CP_precision": [
+      0.812,
+      0.729,
+      0.885,
+      96
+     ],
+     "reversal_found": [
+      0.99,
+      0.969,
+      1.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.74,
+     "latency_p50_ms": 17.7
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.971,
+      0.961,
+      0.982,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.0
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.975,
+      0.965,
+      0.986,
+      128
+     ],
+     "CP_F1": [
+      0.661,
+      0.568,
+      0.753,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.839,
+      0.766,
+      0.905,
+      96
+     ],
+     "CP_precision": [
+      0.651,
+      0.557,
+      0.743,
+      96
+     ],
+     "reversal_found": [
+      0.958,
+      0.917,
+      0.99,
+      96
+     ],
+     "false_alarm_stable": [
+      0.094,
+      0.0,
+      0.219,
+      32
+     ],
+     "changes_per_query": 0.81,
+     "latency_p50_ms": 17.7
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.954,
+      0.941,
+      0.967,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.7
+    }
+   }
+  },
+  "test|v1.1:default|temporal": {
+   "all": {
+    "TCR": [
+     0.822,
+     0.808,
+     0.836,
+     512
+    ],
+    "CP_F1": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "CP_precision": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "reversal_found": [
+     0.0,
+     0.0,
+     0.0,
+     384
+    ],
+    "false_alarm_stable": [
+     0.0,
+     0.0,
+     0.0,
+     128
+    ],
+    "changes_per_query": 0.0,
+    "latency_p50_ms": 13.3
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.815,
+      0.786,
+      0.842,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.4
+    },
+    "history": {
+     "TCR": [
+      0.828,
+      0.799,
+      0.854,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.4
+    },
+    "plain": {
+     "TCR": [
+      0.815,
+      0.785,
+      0.844,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.3
+    },
+    "when_changed": {
+     "TCR": [
+      0.831,
+      0.801,
+      0.858,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.3
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.932,
+      0.921,
+      0.943,
+      256
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 9.1
+    },
+    "skewed": {
+     "TCR": [
+      0.712,
+      0.694,
+      0.73,
+      256
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 14.5
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.857,
+      0.828,
+      0.884,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.2
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.814,
+      0.788,
+      0.84,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.3
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.805,
+      0.772,
+      0.836,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.5
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.814,
+      0.788,
+      0.84,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 13.5
+    }
+   }
+  },
+  "test|v1.1:hash_embed|memory_lane": {
+   "all": {
+    "TCR": [
+     0.974,
+     0.968,
+     0.979,
+     512
+    ],
+    "CP_F1": [
+     0.226,
+     0.195,
+     0.26,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.3,
+     0.266,
+     0.334,
+     384
+    ],
+    "CP_precision": [
+     0.176,
+     0.149,
+     0.205,
+     384
+    ],
+    "reversal_found": [
+     0.495,
+     0.448,
+     0.544,
+     384
+    ],
+    "false_alarm_stable": [
+     0.414,
+     0.328,
+     0.5,
+     128
+    ],
+    "changes_per_query": 1.18,
+    "latency_p50_ms": 18.8
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.973,
+      0.96,
+      0.983,
+      128
+     ],
+     "CP_F1": [
+      0.282,
+      0.219,
+      0.346,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.287,
+      0.225,
+      0.35,
+      96
+     ],
+     "CP_precision": [
+      0.215,
+      0.16,
+      0.273,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.469,
+      0.312,
+      0.625,
+      32
+     ],
+     "changes_per_query": 1.36,
+     "latency_p50_ms": 27.8
+    },
+    "history": {
+     "TCR": [
+      0.979,
+      0.969,
+      0.99,
+      128
+     ],
+     "CP_F1": [
+      0.252,
+      0.19,
+      0.315,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.283,
+      0.219,
+      0.351,
+      96
+     ],
+     "CP_precision": [
+      0.192,
+      0.139,
+      0.248,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.438,
+      0.25,
+      0.594,
+      32
+     ],
+     "changes_per_query": 1.28,
+     "latency_p50_ms": 18.7
+    },
+    "plain": {
+     "TCR": [
+      0.965,
+      0.952,
+      0.977,
+      128
+     ],
+     "CP_F1": [
+      0.137,
+      0.081,
+      0.199,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.339,
+      0.263,
+      0.42,
+      96
+     ],
+     "CP_precision": [
+      0.115,
+      0.067,
+      0.168,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.385,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": [
+      0.375,
+      0.219,
+      0.531,
+      32
+     ],
+     "changes_per_query": 0.87,
+     "latency_p50_ms": 17.5
+    },
+    "when_changed": {
+     "TCR": [
+      0.979,
+      0.969,
+      0.988,
+      128
+     ],
+     "CP_F1": [
+      0.234,
+      0.17,
+      0.3,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.292,
+      0.23,
+      0.362,
+      96
+     ],
+     "CP_precision": [
+      0.182,
+      0.129,
+      0.24,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.375,
+      0.219,
+      0.532,
+      32
+     ],
+     "changes_per_query": 1.21,
+     "latency_p50_ms": 16.7
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.965,
+      0.955,
+      0.973,
+      256
+     ],
+     "CP_F1": [
+      0.229,
+      0.183,
+      0.275,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.305,
+      0.259,
+      0.354,
+      192
+     ],
+     "CP_precision": [
+      0.18,
+      0.141,
+      0.222,
+      192
+     ],
+     "reversal_found": [
+      0.49,
+      0.417,
+      0.557,
+      192
+     ],
+     "false_alarm_stable": [
+      0.406,
+      0.297,
+      0.531,
+      64
+     ],
+     "changes_per_query": 1.22,
+     "latency_p50_ms": 14.3
+    },
+    "skewed": {
+     "TCR": [
+      0.983,
+      0.977,
+      0.989,
+      256
+     ],
+     "CP_F1": [
+      0.223,
+      0.179,
+      0.268,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.296,
+      0.248,
+      0.345,
+      192
+     ],
+     "CP_precision": [
+      0.172,
+      0.134,
+      0.21,
+      192
+     ],
+     "reversal_found": [
+      0.5,
+      0.427,
+      0.573,
+      192
+     ],
+     "false_alarm_stable": [
+      0.422,
+      0.297,
+      0.547,
+      64
+     ],
+     "changes_per_query": 1.14,
+     "latency_p50_ms": 20.1
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.982,
+      0.973,
+      0.99,
+      128
+     ],
+     "CP_F1": [
+      0.481,
+      0.419,
+      0.541,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.617,
+      0.572,
+      0.664,
+      96
+     ],
+     "CP_precision": [
+      0.375,
+      0.316,
+      0.436,
+      96
+     ],
+     "reversal_found": [
+      0.99,
+      0.969,
+      1.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.844,
+      0.719,
+      0.969,
+      32
+     ],
+     "changes_per_query": 2.39,
+     "latency_p50_ms": 19.5
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.973,
+      0.961,
+      0.983,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.9
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.98,
+      0.97,
+      0.99,
+      128
+     ],
+     "CP_F1": [
+      0.424,
+      0.36,
+      0.488,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.584,
+      0.536,
+      0.631,
+      96
+     ],
+     "CP_precision": [
+      0.33,
+      0.272,
+      0.389,
+      96
+     ],
+     "reversal_found": [
+      0.99,
+      0.969,
+      1.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.812,
+      0.688,
+      0.938,
+      32
+     ],
+     "changes_per_query": 2.33,
+     "latency_p50_ms": 18.5
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.961,
+      0.947,
+      0.974,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.9
+    }
+   }
+  },
+  "test|v1.1:no_query_focus|memory_lane": {
+   "all": {
+    "TCR": [
+     0.97,
+     0.964,
+     0.975,
+     512
+    ],
+    "CP_F1": [
+     0.203,
+     0.164,
+     0.245,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.245,
+     0.203,
+     0.286,
+     384
+    ],
+    "CP_precision": [
+     0.203,
+     0.164,
+     0.242,
+     384
+    ],
+    "reversal_found": [
+     0.487,
+     0.438,
+     0.539,
+     384
+    ],
+    "false_alarm_stable": [
+     0.0,
+     0.0,
+     0.0,
+     128
+    ],
+    "changes_per_query": 0.19,
+    "latency_p50_ms": 17.5
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.97,
+      0.958,
+      0.98,
+      128
+     ],
+     "CP_F1": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "CP_precision": [
+      0.25,
+      0.167,
+      0.334,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.19,
+     "latency_p50_ms": 20.3
+    },
+    "history": {
+     "TCR": [
+      0.97,
+      0.957,
+      0.982,
+      128
+     ],
+     "CP_F1": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "CP_precision": [
+      0.25,
+      0.167,
+      0.344,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.594,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.19,
+     "latency_p50_ms": 18.4
+    },
+    "plain": {
+     "TCR": [
+      0.967,
+      0.956,
+      0.978,
+      128
+     ],
+     "CP_F1": [
+      0.135,
+      0.073,
+      0.208,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.229,
+      0.146,
+      0.312,
+      96
+     ],
+     "CP_precision": [
+      0.135,
+      0.073,
+      0.208,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.385,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.18,
+     "latency_p50_ms": 17.6
+    },
+    "when_changed": {
+     "TCR": [
+      0.971,
+      0.96,
+      0.982,
+      128
+     ],
+     "CP_F1": [
+      0.177,
+      0.104,
+      0.26,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.25,
+      0.167,
+      0.333,
+      96
+     ],
+     "CP_precision": [
+      0.177,
+      0.104,
+      0.26,
+      96
+     ],
+     "reversal_found": [
+      0.469,
+      0.375,
+      0.573,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.19,
+     "latency_p50_ms": 16.6
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.961,
+      0.952,
+      0.969,
+      256
+     ],
+     "CP_F1": [
+      0.188,
+      0.135,
+      0.245,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.245,
+      0.182,
+      0.307,
+      192
+     ],
+     "CP_precision": [
+      0.188,
+      0.135,
+      0.245,
+      192
+     ],
+     "reversal_found": [
+      0.49,
+      0.417,
+      0.562,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.18,
+     "latency_p50_ms": 14.0
+    },
+    "skewed": {
+     "TCR": [
+      0.979,
+      0.971,
+      0.985,
+      256
+     ],
+     "CP_F1": [
+      0.219,
+      0.161,
+      0.276,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.245,
+      0.188,
+      0.307,
+      192
+     ],
+     "CP_precision": [
+      0.219,
+      0.161,
+      0.276,
+      192
+     ],
+     "reversal_found": [
+      0.484,
+      0.411,
+      0.557,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.19,
+     "latency_p50_ms": 19.6
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.978,
+      0.967,
+      0.987,
+      128
+     ],
+     "CP_F1": [
+      0.812,
+      0.729,
+      0.885,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.979,
+      0.948,
+      1.0,
+      96
+     ],
+     "CP_precision": [
+      0.812,
+      0.729,
+      0.885,
+      96
+     ],
+     "reversal_found": [
+      0.99,
+      0.969,
+      1.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.74,
+     "latency_p50_ms": 17.5
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.971,
+      0.96,
+      0.982,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 17.6
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.975,
+      0.965,
+      0.986,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.958,
+      0.917,
+      0.99,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 18.0
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.954,
+      0.941,
+      0.967,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.4
+    }
+   }
+  },
+  "test|v1.1:router_strat|memory_lane": {
+   "all": {
+    "TCR": [
+     0.904,
+     0.892,
+     0.915,
+     512
+    ],
+    "CP_F1": [
+     0.351,
+     0.303,
+     0.397,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.411,
+     0.361,
+     0.461,
+     384
+    ],
+    "CP_precision": [
+     0.348,
+     0.302,
+     0.397,
+     384
+    ],
+    "reversal_found": [
+     0.44,
+     0.391,
+     0.49,
+     384
+    ],
+    "false_alarm_stable": [
+     0.016,
+     0.0,
+     0.039,
+     128
+    ],
+    "changes_per_query": 0.35,
+    "latency_p50_ms": 16.8
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      0.97,
+      0.958,
+      0.98,
+      128
+     ],
+     "CP_F1": [
+      0.477,
+      0.38,
+      0.575,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.488,
+      0.389,
+      0.589,
+      96
+     ],
+     "CP_precision": [
+      0.472,
+      0.375,
+      0.571,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.41,
+     "latency_p50_ms": 19.8
+    },
+    "history": {
+     "TCR": [
+      0.97,
+      0.958,
+      0.982,
+      128
+     ],
+     "CP_F1": [
+      0.481,
+      0.382,
+      0.58,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.491,
+      0.394,
+      0.59,
+      96
+     ],
+     "CP_precision": [
+      0.477,
+      0.38,
+      0.576,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.41,
+     "latency_p50_ms": 18.4
+    },
+    "plain": {
+     "TCR": [
+      0.812,
+      0.784,
+      0.841,
+      128
+     ],
+     "CP_F1": [
+      0.115,
+      0.052,
+      0.177,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.229,
+      0.146,
+      0.312,
+      96
+     ],
+     "CP_precision": [
+      0.115,
+      0.052,
+      0.177,
+      96
+     ],
+     "reversal_found": [
+      0.281,
+      0.198,
+      0.375,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.21,
+     "latency_p50_ms": 16.9
+    },
+    "when_changed": {
+     "TCR": [
+      0.862,
+      0.837,
+      0.887,
+      128
+     ],
+     "CP_F1": [
+      0.33,
+      0.236,
+      0.424,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.434,
+      0.337,
+      0.535,
+      96
+     ],
+     "CP_precision": [
+      0.328,
+      0.24,
+      0.422,
+      96
+     ],
+     "reversal_found": [
+      0.479,
+      0.375,
+      0.573,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.37,
+     "latency_p50_ms": 16.0
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      0.943,
+      0.933,
+      0.953,
+      256
+     ],
+     "CP_F1": [
+      0.375,
+      0.307,
+      0.443,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.453,
+      0.384,
+      0.524,
+      192
+     ],
+     "CP_precision": [
+      0.372,
+      0.305,
+      0.44,
+      192
+     ],
+     "reversal_found": [
+      0.484,
+      0.417,
+      0.552,
+      192
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.078,
+      64
+     ],
+     "changes_per_query": 0.38,
+     "latency_p50_ms": 13.2
+    },
+    "skewed": {
+     "TCR": [
+      0.864,
+      0.844,
+      0.883,
+      256
+     ],
+     "CP_F1": [
+      0.326,
+      0.26,
+      0.391,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.368,
+      0.303,
+      0.438,
+      192
+     ],
+     "CP_precision": [
+      0.324,
+      0.258,
+      0.391,
+      192
+     ],
+     "reversal_found": [
+      0.396,
+      0.328,
+      0.469,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.32,
+     "latency_p50_ms": 19.4
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      0.905,
+      0.882,
+      0.927,
+      128
+     ],
+     "CP_F1": [
+      0.802,
+      0.719,
+      0.875,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.854,
+      0.781,
+      0.917,
+      96
+     ],
+     "CP_precision": [
+      0.802,
+      0.719,
+      0.875,
+      96
+     ],
+     "reversal_found": [
+      0.917,
+      0.854,
+      0.969,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.69,
+     "latency_p50_ms": 15.9
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      0.911,
+      0.887,
+      0.934,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.9
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      0.9,
+      0.872,
+      0.924,
+      128
+     ],
+     "CP_F1": [
+      0.601,
+      0.502,
+      0.694,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.788,
+      0.708,
+      0.863,
+      96
+     ],
+     "CP_precision": [
+      0.59,
+      0.497,
+      0.681,
+      96
+     ],
+     "reversal_found": [
+      0.844,
+      0.771,
+      0.917,
+      96
+     ],
+     "false_alarm_stable": [
+      0.062,
+      0.0,
+      0.156,
+      32
+     ],
+     "changes_per_query": 0.71,
+     "latency_p50_ms": 17.4
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      0.898,
+      0.875,
+      0.921,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 15.6
+    }
+   }
+  },
+  "test|v1.1:year_epochs|memory_lane": {
+   "all": {
+    "TCR": [
+     1.0,
+     1.0,
+     1.0,
+     512
+    ],
+    "CP_F1": [
+     0.361,
+     0.314,
+     0.408,
+     384
+    ],
+    "CP_F1_tol1": [
+     0.454,
+     0.405,
+     0.504,
+     384
+    ],
+    "CP_precision": [
+     0.358,
+     0.312,
+     0.407,
+     384
+    ],
+    "reversal_found": [
+     0.487,
+     0.438,
+     0.537,
+     384
+    ],
+    "false_alarm_stable": [
+     0.023,
+     0.0,
+     0.055,
+     128
+    ],
+    "changes_per_query": 0.39,
+    "latency_p50_ms": 17.0
+   },
+   "by_query_style": {
+    "evolution": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.488,
+      0.392,
+      0.585,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.488,
+      0.391,
+      0.587,
+      96
+     ],
+     "CP_precision": [
+      0.483,
+      0.387,
+      0.582,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.594,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.41,
+     "latency_p50_ms": 19.8
+    },
+    "history": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.491,
+      0.394,
+      0.589,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.491,
+      0.391,
+      0.594,
+      96
+     ],
+     "CP_precision": [
+      0.488,
+      0.389,
+      0.587,
+      96
+     ],
+     "reversal_found": [
+      0.5,
+      0.396,
+      0.604,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.41,
+     "latency_p50_ms": 18.2
+    },
+    "plain": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.146,
+      0.073,
+      0.219,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.417,
+      0.323,
+      0.51,
+      96
+     ],
+     "CP_precision": [
+      0.146,
+      0.073,
+      0.219,
+      96
+     ],
+     "reversal_found": [
+      0.49,
+      0.385,
+      0.583,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.37,
+     "latency_p50_ms": 17.2
+    },
+    "when_changed": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.318,
+      0.229,
+      0.411,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.422,
+      0.323,
+      0.521,
+      96
+     ],
+     "CP_precision": [
+      0.316,
+      0.229,
+      0.41,
+      96
+     ],
+     "reversal_found": [
+      0.458,
+      0.365,
+      0.552,
+      96
+     ],
+     "false_alarm_stable": [
+      0.031,
+      0.0,
+      0.094,
+      32
+     ],
+     "changes_per_query": 0.37,
+     "latency_p50_ms": 16.2
+    }
+   },
+   "by_density": {
+    "uniform": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      256
+     ],
+     "CP_F1": [
+      0.351,
+      0.285,
+      0.417,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.465,
+      0.396,
+      0.536,
+      192
+     ],
+     "CP_precision": [
+      0.349,
+      0.281,
+      0.414,
+      192
+     ],
+     "reversal_found": [
+      0.49,
+      0.417,
+      0.557,
+      192
+     ],
+     "false_alarm_stable": [
+      0.047,
+      0.0,
+      0.109,
+      64
+     ],
+     "changes_per_query": 0.39,
+     "latency_p50_ms": 13.8
+    },
+    "skewed": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      256
+     ],
+     "CP_F1": [
+      0.371,
+      0.303,
+      0.439,
+      192
+     ],
+     "CP_F1_tol1": [
+      0.444,
+      0.376,
+      0.512,
+      192
+     ],
+     "CP_precision": [
+      0.367,
+      0.303,
+      0.436,
+      192
+     ],
+     "reversal_found": [
+      0.484,
+      0.411,
+      0.552,
+      192
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      64
+     ],
+     "changes_per_query": 0.39,
+     "latency_p50_ms": 19.4
+    }
+   },
+   "by_lexicon_phrasing": {
+    "in_lexicon|lexicon": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.812,
+      0.729,
+      0.885,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.958,
+      0.917,
+      0.99,
+      96
+     ],
+     "CP_precision": [
+      0.812,
+      0.729,
+      0.885,
+      96
+     ],
+     "reversal_found": [
+      0.99,
+      0.969,
+      1.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.74,
+     "latency_p50_ms": 17.7
+    },
+    "in_lexicon|paraphrase": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.3
+    },
+    "out_of_lexicon|lexicon": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.63,
+      0.535,
+      0.72,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.859,
+      0.79,
+      0.922,
+      96
+     ],
+     "CP_precision": [
+      0.62,
+      0.524,
+      0.714,
+      96
+     ],
+     "reversal_found": [
+      0.958,
+      0.917,
+      0.99,
+      96
+     ],
+     "false_alarm_stable": [
+      0.094,
+      0.0,
+      0.219,
+      32
+     ],
+     "changes_per_query": 0.81,
+     "latency_p50_ms": 17.3
+    },
+    "out_of_lexicon|paraphrase": {
+     "TCR": [
+      1.0,
+      1.0,
+      1.0,
+      128
+     ],
+     "CP_F1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_F1_tol1": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "CP_precision": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "reversal_found": [
+      0.0,
+      0.0,
+      0.0,
+      96
+     ],
+     "false_alarm_stable": [
+      0.0,
+      0.0,
+      0.0,
+      32
+     ],
+     "changes_per_query": 0.0,
+     "latency_p50_ms": 16.8
+    }
+   }
+  }
+ },
+ "tests": {
+  "dev|v1.0|baseline vs v1.1:default|memory_lane": {
+   "TCR": 2.8267172509016215e-21,
+   "cp_f1": 1.0936993118128406e-12,
+   "reversal_found": 5.2607203186198403e-20
+  },
+  "dev|v1.0|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 1.574484413655683e-05,
+   "cp_f1": 0.00024713417488766445,
+   "reversal_found": 3.577511342372362e-08
+  },
+  "dev|v1.1:default|baseline vs v1.1:default|memory_lane": {
+   "TCR": 2.601731563731981e-15,
+   "cp_f1": 1.0936993118128406e-12,
+   "reversal_found": 5.2607203186198403e-20
+  },
+  "dev|v1.1:default|temporal vs v1.1:default|memory_lane": {
+   "TCR": 2.601731563731981e-15,
+   "cp_f1": 1.0936993118128406e-12,
+   "reversal_found": 5.2607203186198403e-20
+  },
+  "dev|v1.1:router_strat|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 5.023176458166338e-08,
+   "cp_f1": 0.8905649877482654,
+   "reversal_found": 0.8861140855995522
+  },
+  "dev|v1.1:year_epochs|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 0.0014164044957641663,
+   "cp_f1": 0.6767851485272958,
+   "reversal_found": 1.0
+  },
+  "dev|v1.1:no_query_focus|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 1.0,
+   "cp_f1": 3.0220128697670405e-05,
+   "reversal_found": 1.0
+  },
+  "dev|v1.1:hash_embed|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 0.8936613513936202,
+   "cp_f1": 4.818462247468804e-05,
+   "reversal_found": 0.8872641012732049
+  },
+  "dev|TCR skewed evolution: v1.1 baseline vs memory_lane": 4.076455310464278e-09,
+  "dev|TCR skewed plain: v1.1 baseline vs memory_lane": 1.4501446744812917e-08,
+  "test|v1.0|baseline vs v1.1:default|memory_lane": {
+   "TCR": 5.099853089971072e-41,
+   "cp_f1": 7.09260922674737e-27,
+   "reversal_found": 4.607783593313109e-34
+  },
+  "test|v1.0|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 8.765207996345513e-06,
+   "cp_f1": 1.9623126209213168e-11,
+   "reversal_found": 6.307712578863726e-16
+  },
+  "test|v1.1:default|baseline vs v1.1:default|memory_lane": {
+   "TCR": 6.434853642579059e-49,
+   "cp_f1": 7.09260922674737e-27,
+   "reversal_found": 4.607783593313109e-34
+  },
+  "test|v1.1:default|temporal vs v1.1:default|memory_lane": {
+   "TCR": 6.434853642579059e-49,
+   "cp_f1": 7.09260922674737e-27,
+   "reversal_found": 4.607783593313109e-34
+  },
+  "test|v1.1:router_strat|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 8.853941850620933e-19,
+   "cp_f1": 0.5117528798465842,
+   "reversal_found": 0.1274047385438665
+  },
+  "test|v1.1:year_epochs|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 5.024308276176614e-12,
+   "cp_f1": 0.7662165412972376,
+   "reversal_found": 1.0
+  },
+  "test|v1.1:no_query_focus|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 1.0,
+   "cp_f1": 8.669693601532922e-09,
+   "reversal_found": 1.0
+  },
+  "test|v1.1:hash_embed|memory_lane vs v1.1:default|memory_lane": {
+   "TCR": 0.26820602549387307,
+   "cp_f1": 2.269771709781064e-14,
+   "reversal_found": 0.7922667304627821
+  },
+  "test|TCR skewed evolution: v1.1 baseline vs memory_lane": 3.450710411080569e-12,
+  "test|TCR skewed history: v1.1 baseline vs memory_lane": 1.0380615348392863e-11,
+  "test|TCR skewed plain: v1.1 baseline vs memory_lane": 4.029177905104946e-12,
+  "test|TCR skewed when_changed: v1.1 baseline vs memory_lane": 2.3606005816001627e-12
+ }
+}

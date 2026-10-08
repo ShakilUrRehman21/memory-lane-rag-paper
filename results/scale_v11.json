@@ -1,0 +1,50 @@
+[
+ {
+  "version": "v11",
+  "docs": 250,
+  "ingest_ms_per_doc_last100": 14.31,
+  "query_p50_ms": 32.11,
+  "query_p95_ms": 45.91,
+  "store_MB": 3.19
+ },
+ {
+  "version": "v11",
+  "docs": 500,
+  "ingest_ms_per_doc_last100": 13.57,
+  "query_p50_ms": 32.86,
+  "query_p95_ms": 50.42,
+  "store_MB": 6.14
+ },
+ {
+  "version": "v11",
+  "docs": 1000,
+  "ingest_ms_per_doc_last100": 14.62,
+  "query_p50_ms": 52.76,
+  "query_p95_ms": 70.46,
+  "store_MB": 12.04
+ },
+ {
+  "version": "v11",
+  "docs": 2000,
+  "ingest_ms_per_doc_last100": 17.38,
+  "query_p50_ms": 41.69,
+  "query_p95_ms": 63.39,
+  "store_MB": 23.82
+ },
+ {
+  "version": "v11",
+  "docs": 5000,
+  "ingest_ms_per_doc_last100": 23.18,
+  "query_p50_ms": 58.53,
+  "query_p95_ms": 89.71,
+  "store_MB": 59.17
+ },
+ {
+  "version": "v11",
+  "docs": 10000,
+  "ingest_ms_per_doc_last100": 24.33,
+  "query_p50_ms": 98.73,
+  "query_p95_ms": 135.28,
+  "store_MB": 118.26
+ }
+]

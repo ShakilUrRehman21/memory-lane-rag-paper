@@ -1,0 +1,13 @@
+{
+ "n_statements": 11,
+ "memory_type_kappa": 0.653,
+ "polarity_quadratic_kappa": 0.94,
+ "polarity_alpha_interval": 0.943,
+ "polarity_sign_agreement": 1.0,
+ "transition_f1_exact": 0.667,
+ "transition_f1_tol1doc": 0.667,
+ "n_transitions": {
+  "A": 1,
+  "B": 2
+ }
+}

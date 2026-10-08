@@ -1,0 +1,14 @@
+personas: 96
+evolution_phrasing baseline {'TCR': 0.816, 'CP_F1_repo': 0.0, 'CP_F1_topic': 0.0, 'reversal_found': 0.0, 'n_changes': 0.0, 'UHCR': 0.0, 'n': 96}
+evolution_phrasing memory_lane {'TCR': 1.0, 'CP_F1_repo': 0.13, 'CP_F1_topic': 0.13, 'reversal_found': 0.25, 'n_changes': 3.021, 'UHCR': 0.0, 'n': 96}
+plain_phrasing baseline {'TCR': 0.842, 'CP_F1_repo': 0.0, 'CP_F1_topic': 0.0, 'reversal_found': 0.0, 'n_changes': 0.0, 'UHCR': 0.0, 'n': 96}
+plain_phrasing memory_lane {'TCR': 0.849, 'CP_F1_repo': 0.114, 'CP_F1_topic': 0.114, 'reversal_found': 0.229, 'n_changes': 2.521, 'UHCR': 0.0, 'n': 96}
+--- memory_lane, evolution phrasing, by factor ---
+in_lexicon lexicon uniform ML {'TCR': 1.0, 'CP_F1_repo': 0.286, 'CP_F1_topic': 0.286, 'reversal_found': 1.0, 'n_changes': 6.083, 'UHCR': 0.0, 'n': 12} BASE TCR 0.93
+in_lexicon lexicon skewed ML {'TCR': 1.0, 'CP_F1_repo': 0.294, 'CP_F1_topic': 0.294, 'reversal_found': 1.0, 'n_changes': 5.917, 'UHCR': 0.0, 'n': 12} BASE TCR 0.792
+in_lexicon paraphrase uniform ML {'TCR': 1.0, 'CP_F1_repo': 0.223, 'CP_F1_topic': 0.223, 'reversal_found': 0.0, 'n_changes': 6.083, 'UHCR': 0.0, 'n': 12} BASE TCR 0.93
+in_lexicon paraphrase skewed ML {'TCR': 1.0, 'CP_F1_repo': 0.234, 'CP_F1_topic': 0.234, 'reversal_found': 0.0, 'n_changes': 6.083, 'UHCR': 0.0, 'n': 12} BASE TCR 0.736
+out_of_lexicon lexicon uniform ML {'TCR': 1.0, 'CP_F1_repo': 0.0, 'CP_F1_topic': 0.0, 'reversal_found': 0.0, 'n_changes': 0.0, 'UHCR': 0.0, 'n': 12} BASE TCR 0.903
+out_of_lexicon lexicon skewed ML {'TCR': 1.0, 'CP_F1_repo': 0.0, 'CP_F1_topic': 0.0, 'reversal_found': 0.0, 'n_changes': 0.0, 'UHCR': 0.0, 'n': 12} BASE TCR 0.75
+out_of_lexicon paraphrase uniform ML {'TCR': 1.0, 'CP_F1_repo': 0.0, 'CP_F1_topic': 0.0, 'reversal_found': 0.0, 'n_changes': 0.0, 'UHCR': 0.0, 'n': 12} BASE TCR 0.847
+out_of_lexicon paraphrase skewed ML {'TCR': 1.0, 'CP_F1_repo': 0.0, 'CP_F1_topic': 0.0, 'reversal_found': 0.0, 'n_changes': 0.0, 'UHCR': 0.0, 'n': 12} BASE TCR 0.639

@@ -1,0 +1,5 @@
+persona_id,topic,from_doc_id,to_doc_id,change_type,annotator_id
+EX1,remote work,EX1_d2,EX1_d3,reversal,A
+EX1,remote work,EX1_d2,EX1_d3,reversal,B
+EX1,remote work,EX1_d3,EX1_d4,gradual_evolution,B
+EX1,remote work,EX1_d2,EX1_d3,reversal,gold

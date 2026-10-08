@@ -1,0 +1,15 @@
+
+q1_ai_evolution intent=EVOLUTION_ANALYSIS evolution=True years=2022-2026
+  baseline     TCR=0.8 CPF1=0.0 years=['2022', '2022', '2024', '2025', '2026'] changes=[]
+  temporal     TCR=1.0 CPF1=0.667 years=['2022', '2023', '2024', '2025', '2026'] changes=[('2022', '2024', 'reversal'), ('2024', '2025', 'sudden_shift'), ('2022', '2023', 'reversal'), ('2023', '2024', 'sudden_shift'), ('2022', '2025', 'gradual_evolution')]
+  memory_lane  TCR=1.0 CPF1=0.667 years=['2022', '2023', '2024', '2025', '2026'] changes=[('2022', '2024', 'reversal'), ('2024', '2025', 'sudden_shift'), ('2022', '2023', 'reversal'), ('2023', '2024', 'sudden_shift'), ('2022', '2025', 'gradual_evolution')]
+
+q2_java_transition intent=FACT_LOOKUP evolution=False years=None-None
+  baseline     TCR=1.0 CPF1=0.0 years=['2022', '2022', '2022', '2024', '2025'] changes=[]
+  temporal     TCR=1.0 CPF1=0.5 years=['2022', '2022', '2022', '2022', '2024'] changes=[('2022', '2024', 'sudden_shift'), ('2022', '2022', 'sudden_shift'), ('2022', '2022', 'sudden_shift')]
+  memory_lane  TCR=1.0 CPF1=0.5 years=['2022', '2022', '2022', '2022', '2024'] changes=[('2022', '2024', 'sudden_shift'), ('2022', '2022', 'sudden_shift'), ('2022', '2022', 'sudden_shift')]
+
+q3_career_goals intent=EVOLUTION_ANALYSIS evolution=True years=None-None
+  baseline     TCR=0.5 CPF1=1.0 years=['2022', '2022', '2022', '2022', '2025'] changes=[]
+  temporal     TCR=1.0 CPF1=0.0 years=['2022', '2023', '2024', '2025', '2026'] changes=[('2022', '2024', 'reversal'), ('2024', '2025', 'sudden_shift'), ('2022', '2023', 'reversal'), ('2023', '2024', 'sudden_shift'), ('2022', '2025', 'gradual_evolution')]
+  memory_lane  TCR=1.0 CPF1=0.0 years=['2022', '2023', '2024', '2025', '2026'] changes=[('2022', '2024', 'reversal'), ('2024', '2025', 'sudden_shift'), ('2022', '2023', 'reversal'), ('2023', '2024', 'sudden_shift'), ('2022', '2025', 'gradual_evolution')]

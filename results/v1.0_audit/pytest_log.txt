@@ -1,0 +1,65 @@
+=== RUN 1: fresh database ===
+>           cursor.execute("SELECT id FROM users WHERE LOWER(username) = LOWER(?);", (username,))
+E           sqlite3.OperationalError: no such table: users
+backend/app/storage/repository.py:78: OperationalError
+=============================== warnings summary ===============================
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.3-final-0 ________________
+Name                                              Stmts   Miss  Cover
+---------------------------------------------------------------------
+backend/app/__init__.py                               0      0   100%
+backend/app/api/__init__.py                           0      0   100%
+backend/app/api/routes_auth.py                       71     49    31%
+backend/app/api/routes_changes.py                    16      5    69%
+backend/app/api/routes_documents.py                  42     16    62%
+backend/app/api/routes_graph.py                       7      0   100%
+backend/app/api/routes_query.py                       7      0   100%
+backend/app/api/routes_research.py                   12      0   100%
+backend/app/api/routes_timeline.py                   13      0   100%
+backend/app/api/routes_users.py                      57     37    35%
+backend/app/api/routes_versions.py                   15      5    67%
+backend/app/core/__init__.py                          0      0   100%
+backend/app/core/config.py                           32      0   100%
+backend/app/core/database.py                         58      3    95%
+backend/app/core/security.py                         21     12    43%
+backend/app/evaluation/__init__.py                    0      0   100%
+backend/app/evaluation/benchmark_dataset.py           3      0   100%
+backend/app/evaluation/experiment_runner.py          59      0   100%
+backend/app/evaluation/metrics.py                    52      5    90%
+backend/app/ingestion/__init__.py                     0      0   100%
+backend/app/ingestion/chunker.py                     49     12    76%
+backend/app/ingestion/date_extractor.py             111     63    43%
+backend/app/ingestion/ingestion_service.py           55      1    98%
+backend/app/ingestion/parsers.py                     62     41    34%
+backend/app/ingestion/tmu_extractor.py               73      3    96%
+backend/app/main.py                                  36      4    89%
+backend/app/models/__init__.py                        0      0   100%
+backend/app/models/schemas.py                       241      0   100%
+backend/app/reasoning/__init__.py                     0      0   100%
+backend/app/reasoning/change_detector.py             67      2    97%
+backend/app/reasoning/contradiction_detector.py      37      1    97%
+backend/app/reasoning/memory_graph.py                31      4    87%
+backend/app/reasoning/version_diff.py                50      8    84%
+backend/app/retrieval/__init__.py                     0      0   100%
+backend/app/retrieval/hybrid_retriever.py            46      6    87%
+backend/app/retrieval/query_router.py                57      7    88%
+backend/app/retrieval/reranker.py                    27      1    96%
+backend/app/retrieval/stratified_sampler.py          55     23    58%
+backend/app/seed.py                                  68     68     0%
+backend/app/storage/__init__.py                       0      0   100%
+backend/app/storage/fts_store.py                     68     28    59%
+backend/app/storage/repository.py                   258     86    67%
+backend/app/storage/vector_store.py                  80      9    89%
+backend/app/synthesis/__init__.py                     0      0   100%
+backend/app/synthesis/grounded_synthesizer.py        43      3    93%
+backend/app/synthesis/llm_provider.py                81     25    69%
+---------------------------------------------------------------------
+TOTAL                                              2060    527    74%
+=========================== short test summary info ============================
+FAILED backend/tests/test_auth_flow.py::test_full_auth_and_user_flow - sqlite...
+1 failed, 8 passed, 1 warning in 11.17s
+
+=== RUN 2: database left over from run 1 ===
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+9 passed, 1 warning in 1.67s

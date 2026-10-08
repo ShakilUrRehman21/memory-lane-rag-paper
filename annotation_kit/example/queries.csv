@@ -1,0 +1,4 @@
+persona_id,query_id,query,query_style,topic,gold_answer
+EX1,EX1_q1,How has my view on remote work changed over the years?,evolution,remote work,"Negative in 2019-2020, positive from 2021; asked to stay fully remote in 2022."
+EX1,EX1_q2,When did my opinion of remote work turn around?,when_changed,remote work,Between May 2020 and June 2021.
+EX2,EX2_q1,What do I think about gardening?,plain,gardening,Consistently positive.

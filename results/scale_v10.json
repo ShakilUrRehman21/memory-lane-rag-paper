@@ -1,0 +1,26 @@
+[
+ {
+  "version": "v10",
+  "docs": 250,
+  "ingest_ms_per_doc_last100": 264.74,
+  "query_p50_ms": 29.55,
+  "query_p95_ms": 49.14,
+  "store_MB": 3.64
+ },
+ {
+  "version": "v10",
+  "docs": 500,
+  "ingest_ms_per_doc_last100": 513.55,
+  "query_p50_ms": 37.51,
+  "query_p95_ms": 70.69,
+  "store_MB": 7.04
+ },
+ {
+  "version": "v10",
+  "docs": 1000,
+  "ingest_ms_per_doc_last100": 984.7,
+  "query_p50_ms": 50.05,
+  "query_p95_ms": 72.08,
+  "store_MB": 13.87
+ }
+]

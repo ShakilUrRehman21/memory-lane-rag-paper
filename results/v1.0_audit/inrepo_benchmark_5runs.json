@@ -1,0 +1,147 @@
+[
+ {
+  "baseline": {
+   "pipeline": "baseline",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 0.767,
+   "change_point_f1": 0.333,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 16.67,
+   "total_token_usage": 1534
+  },
+  "temporal": {
+   "pipeline": "temporal",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 171.38,
+   "total_token_usage": 1961
+  },
+  "memory_lane": {
+   "pipeline": "memory_lane",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 181.29,
+   "total_token_usage": 1961
+  }
+ },
+ {
+  "baseline": {
+   "pipeline": "baseline",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 0.767,
+   "change_point_f1": 0.333,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 18.22,
+   "total_token_usage": 1534
+  },
+  "temporal": {
+   "pipeline": "temporal",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 175.6,
+   "total_token_usage": 1961
+  },
+  "memory_lane": {
+   "pipeline": "memory_lane",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 175.87,
+   "total_token_usage": 1961
+  }
+ },
+ {
+  "baseline": {
+   "pipeline": "baseline",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 0.767,
+   "change_point_f1": 0.333,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 19.46,
+   "total_token_usage": 1534
+  },
+  "temporal": {
+   "pipeline": "temporal",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 173.06,
+   "total_token_usage": 1961
+  },
+  "memory_lane": {
+   "pipeline": "memory_lane",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 167.95,
+   "total_token_usage": 1961
+  }
+ },
+ {
+  "baseline": {
+   "pipeline": "baseline",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 0.767,
+   "change_point_f1": 0.333,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 15.06,
+   "total_token_usage": 1534
+  },
+  "temporal": {
+   "pipeline": "temporal",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 172.06,
+   "total_token_usage": 1961
+  },
+  "memory_lane": {
+   "pipeline": "memory_lane",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 173.28,
+   "total_token_usage": 1961
+  }
+ },
+ {
+  "baseline": {
+   "pipeline": "baseline",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 0.767,
+   "change_point_f1": 0.333,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 15.93,
+   "total_token_usage": 1534
+  },
+  "temporal": {
+   "pipeline": "temporal",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 174.21,
+   "total_token_usage": 1961
+  },
+  "memory_lane": {
+   "pipeline": "memory_lane",
+   "chronological_ordering_accuracy": 1.0,
+   "temporal_coverage_recall": 1.0,
+   "change_point_f1": 0.389,
+   "unsupported_claim_rate": 0.0,
+   "average_latency_ms": 181.1,
+   "total_token_usage": 1961
+  }
+ }
+]
